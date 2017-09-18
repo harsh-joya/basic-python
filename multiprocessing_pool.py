@@ -1,7 +1,7 @@
 import time
 import multiprocessing as mp
 
-def f():
+def f(n):
     sum = 0
     for x in range(100000):
         sum += x*x
